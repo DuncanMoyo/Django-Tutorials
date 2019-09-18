@@ -13,13 +13,21 @@
         <h1> Welcome!</h1>
         You can login here
         <br/>
-        <script>document.write('Hello World in JS')</script>
         <br/>
         <button class="btn btn-primary" name="button">Login</button>
+        <script>document.write('Hello World in JS')</script>
     </div>
     <div class="jumbotron">
         <h1>Welcome!</h1>
     </div>
+
+    <h2>{{ my_name }}</h2>
+    <ul>
+        {% for number in my_numbers %}
+            <li>{{ number }}</li>
+        {% endfor %}
+    </ul>
+
 
 
 </body>
