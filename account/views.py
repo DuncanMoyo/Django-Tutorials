@@ -9,4 +9,4 @@ def home(request):
         'my_name': name,
         'my_numbers': numbers,
     }
-    return render(request, 'accounts/login.html', context)
+    return render(request, 'accounts/home.html', context)
